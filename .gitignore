@@ -1,0 +1,6 @@
+test/
+.vtipPy.conf
+pyproject.toml
+.python-version
+.venv
+uv.lock
