@@ -4,14 +4,14 @@ A simple Python utility for checking IP addresses against VirusTotal's public AP
 
 ## Benifits
 
--Easier than manually checking 100s of IPs on virus total
--Make efficient use of your 500 daily public API requests
+- Easier than manually checking 100s of IPs on virus total
+- Make efficient use of your 500 daily public API requests
 
 ## Features
 
 - Check line-separated lists of IP addresses from a file against VirusTotal
 - Resume scans
-    -If limited by the 500 daily requests, you can easily resume the following day
+    - If limited by the 500 daily requests, you can easily resume the following day
 - Resume interrupted scans where you left off
 - Automatic rate limiting to respect VirusTotal's API constraints
 - Track malicious and suspicious IPs for easy reference
@@ -20,10 +20,13 @@ A simple Python utility for checking IP addresses against VirusTotal's public AP
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/vtipPy.git
-cd vtipPy
+git clone https://github.com/its-radio/virustotal_ip_checker.git
+cd virustotal_ip_checker
 pip install -r requirements.txt
 ```
+
+## Input format
+- Input files must contain one IPv4 address per line 
 
 ## Usage
 
